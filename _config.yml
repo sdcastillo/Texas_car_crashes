@@ -1,0 +1,23 @@
+# SamWiki skin on Cayman for this project Pages site.
+# Theme setup follows GitHub's Jekyll theme guide:
+# https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
+#
+# Pin: remote_theme pages-themes/cayman@v0.2.0
+# Skin files: assets/css/style.scss, _layouts/default.html,
+# _includes/head-custom.html, _includes/samwiki-nav.html
+# Pages opt in with front matter `samwiki: true`.
+
+title: Texas car crashes
+description: Austin 2021 TxDOT crash extract for a principal components analysis, with motorcycle safety in view.
+remote_theme: pages-themes/cayman@v0.2.0
+url: https://sdcastillo.github.io
+baseurl: /Texas_car_crashes
+samwiki: true
+show_downloads: false
+markdown: kramdown
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+exclude:
+  - README.md
+  - texas_car_crashes.zip
